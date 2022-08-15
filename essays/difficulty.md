@@ -47,7 +47,7 @@ Relationships have always been difficult, and by nature will continue to be so.
 
 ## Okay!
 
-So back to the original premise; why is being one of the club officers so difficult?
+So back to the original premise, why is being one of the club officers so difficult?
 
 And the final answer - it's supposed to be difficult, and it's supposed to challenge you, just like everything else that humans do that is difficult: programming, engineering, engaging in relationships, pondering the universe, etc.
 
