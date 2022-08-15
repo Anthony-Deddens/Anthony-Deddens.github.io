@@ -1,26 +1,26 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Anthony Deddens",
     "label": "Student",
-    "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "picture": "https://github.com/Anthony-Deddens.png",
+    "email": "ADEDDE7123@my.sullivan.edu",
+    "phone": "502-531-4553",
+    "website": "https://Anthony-Deddens.github.io",
+    "summary": "I am studying for a Bachelors Degree in I.T. I will be graduating with my Associates in the Fall of 2022, and expect to recieve my Bachelors in Late 2023.",
+    "location": { "address": "3971 Scenic Trail", "postalCode": "40165", "city": "Shepherdsville", "countryCode": "USA", "region": "Kentucky" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
+      { "network": "github", "username": "Anthony-Deddens", "url": "http://github.com/Anthony-Deddens" },
+      { "network": "linkedin", "username": "Anthony Deddens", "url": "http://linkedin.com/in/nthony-deddens-1273a5247" },
       { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
       { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
-    { "name": "3D Graphics" }
+    { "name": "Game Design" },
+    { "name": "2D and 3D Art" },
+    { "name": "Writing and World Building" },
+    { "name": "AI and Machine Learning" },
+    { "name": "Aliens, Speculative Biology, and Speculative Evolution" }
   ],
   "skills": [
     {
