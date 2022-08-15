@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/CTTR.jpg
 title: "Catch The Turtle: Redux"
 date: 2018
 published: true
