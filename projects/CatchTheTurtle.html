@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Catch The Turtle: Redux | Anthony Deddens | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/Anthony-Deddens.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Anthony Deddens | Professional Portfolio">
+    <meta property="og:url" content="https://Anthony-Deddens.github.io/projects/CatchTheTurtle.html">
+    <meta property="og:title" content="Catch The Turtle: Redux | Anthony Deddens | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/Anthony-Deddens.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Catch The Turtle: Redux | Anthony Deddens | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Anthony Deddens</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Catch The Turtle: Redux</h1>
+ <div class="text-center p-4">
+  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" />
+  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" />
+  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" />
+</div>
+
+<p>Catch the Turtle: Redux is a clicker based mobile phone game designed in Code.org for AP Programming in High School. It was a 5 level game featuring one miniboss, a two regular bosses, and a final boss. Alongside an endless arcade mode, and a debug mode. There is a storymode with an overworld, and levels that unlocked as you “caught” the turtle in the previous level. Each level has a unique turtle/tortoise with its own mechanic that makes gameplay different and progressively more challenging. Arcade mode is an endless experience where you start with the first turtle, and progressively have the rest of the turtles put into the level the more you click them. This goes on forever, adding every turtle until the user runs out of lives.</p>
+
+<p>For this project, I was quite proud of myself. Given the short deadline and very short class structure of 45 minute periods, I had a tight time constraint, but I feel I had the most well developed project out of the class. Many of which only had lightly modified test-games, while mine was fully fledged, and could have been an actual mobile app if given enough polish. I plan to make a successor to this game one day, one that is highly experimental and will push through all genres.</p>
+
+<p>Here is some code that illustrates how we read values from the line sensors:</p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">byte</span> <span class="nf">ADCRead</span><span class="p">(</span><span class="n">byte</span> <span class="n">ch</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="n">word</span> <span class="n">value</span><span class="p">;</span>
+    <span class="n">ADC1SC1</span> <span class="o">=</span> <span class="n">ch</span><span class="p">;</span>
+    <span class="k">while</span> <span class="p">(</span><span class="n">ADC1SC1_COCO</span> <span class="o">!=</span> <span class="mi">1</span><span class="p">)</span>
+    <span class="p">{</span>   <span class="c1">// wait until ADC conversion is completed   </span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="n">ADC1RL</span><span class="p">;</span>  <span class="c1">// lower 8-bit value out of 10-bit data from the ADC</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>You can learn more at the <a href="https://manoa.hawaii.edu/news/article.php?aId=2857">UH Micromouse News Announcement</a>.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
