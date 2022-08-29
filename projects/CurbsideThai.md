@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/CTTR.jpg
+image: img/ct_photo1.jpg
 title: "Curbside Thai"
 date: 2022
 published: true
@@ -12,9 +12,6 @@ summary: "My first website designed as a college assignment."
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
-</div>
+  <img width="200px" src="../img/ct_logo2.png" class="img-thumbnail" >
 
 Curbside Thai is a simple multi-page website detailing a Thai themed restaurant. It has pages for location and hours, about, catering, etc.
