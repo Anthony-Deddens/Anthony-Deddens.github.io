@@ -10,7 +10,7 @@ labels:
   - Design Theory
 ---
 
-<img width="100px" class="rounded float-start pe-4" src="../img/Monongok Patch WIP.jpg">
+<img width="100px" class="rounded float-start pe-4" src="../img/Monongok Patch WIP.png">
 Unity Game Proof Of Concept
 
 Some formatting may be lost due to conversion from .docx to plaintext.
