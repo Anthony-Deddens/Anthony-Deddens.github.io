@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/ct_photo1.jpg
+image: img/ct_photo1.png
 title: "Curbside Thai"
 date: 2022
 published: true
